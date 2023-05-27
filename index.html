@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        span{
+            
+            color: red;
+        }
+        .title {
+            max-width: 250px;
+        }
+        button {
+            border: 1px solid blue;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1 class="title">App tính tuổi VJP PRO vcl nhất Vịnh Bắc Bộ</h1>
+        <div>
+            <label for="tuoi">Mời các bro nhập tuổi:</label>
+            <br>
+            <input type="number" id="tuoi" />
+            <br>
+<br>
+            <button 
+                type="button" 
+                onclick="calcAge()" 
+                id="btn"
+            >
+                Bấm nút để tính nhẹ cái nào
+            </button><br>
+            <div id="getAge"></div>
+        </div>
+    </form>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
